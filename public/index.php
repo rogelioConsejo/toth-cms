@@ -1,19 +1,15 @@
 <?php
 
-require_once "../private/funciones_globales.php";
+require_once ("../private/funciones_globales.php");
+require_once ("../private/constantes_globales.php");
 
-?>
+require_once("../template/template.php");
 
-<!doctype html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Toth CMS</title>
-</head>
-<body>
+#ini_set('display_errors', 1);
+
+ echo Header_publico::imprimir("Toth CMS"); ?>
+
+    <p>Página de prueba</p>
 
 </body>
 </html>
