@@ -20,7 +20,7 @@ class Header_publico{
                     <nav>
                         <ul>
                             <li>
-                                <a href=\"index.php\">Inicio</a>
+                                <a href=\"" . ROOT_PATH . "/index.php\">Inicio</a>
                             </li>
                         </ul>
                     </nav>

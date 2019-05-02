@@ -3,7 +3,7 @@
 require_once ("../private/funciones_globales.php");
 require_once ("../private/constantes_globales.php");
 
-require_once("../assets/template/template.php");
+require_once("template/template.php");
 
 #ini_set('display_errors', 1);
 
