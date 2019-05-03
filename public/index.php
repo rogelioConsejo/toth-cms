@@ -1,11 +1,8 @@
 <?php
 
-require_once ("../private/funciones_globales.php");
-require_once ("../private/constantes_globales.php");
+require_once('../private/init.php');
 
-require_once("template/template.php");
-
-#ini_set('display_errors', 1);
+ini_set('display_errors', 1);
 
  echo Header_publico::imprimir("Toth CMS"); ?>
 

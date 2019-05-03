@@ -1,5 +1,8 @@
 <?php
 
+echo PRIVATE_PATH . "<BR>";
+echo ROOT_PATH;
+
 class Header_publico{
     static function imprimir($titulo)
     {
@@ -12,7 +15,7 @@ class Header_publico{
                       content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">
                 <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">
                 <title>{$titulo}</title>
-                <link rel=\"stylesheet\" media=\"all\" href=\"" . ASSETS_PATH . "/estilo/toth-base.css\">
+                <link rel=\"stylesheet\" media=\"all\" href=\"" . PUBLIC_PATH . "/assets/estilo/toth-base.css\">
             </head>
             <body>
                 <header>
