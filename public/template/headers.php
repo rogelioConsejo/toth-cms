@@ -1,7 +1,7 @@
 <?php
 
 class Header_publico{
-    static function imprimir($titulo)
+    static function render($titulo)
     {
         $header = "
             <!doctype html>
@@ -12,7 +12,7 @@ class Header_publico{
                       content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">
                 <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">
                 <title>{$titulo}</title>
-                <link rel=\"stylesheet\" media=\"all\" href=\"http://" . PUBLIC_PATH . "/assets/estilo/toth-base.css\">
+                <link rel=\"stylesheet\" media=\"all\" href=\"/assets/estilo/toth-base.css\">
             </head>
             <body>
                 <header>
@@ -20,7 +20,7 @@ class Header_publico{
                     <nav>
                         <ul>
                             <li>
-                                <a href=\"http://" . ROOT_PATH . "/index.php\">Inicio</a>
+                                <a href=\"/\">Inicio</a>
                             </li>
                         </ul>
                     </nav>

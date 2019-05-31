@@ -1,12 +1,10 @@
 <?php
 
-require_once('../private/init.php');
+  require_once("../private/init.php");
 
-ini_set('display_errors', 1);
+  echo Header_publico::render("Toth CMS"); ?>
 
- echo Header_publico::imprimir("Toth CMS"); ?>
-
-    <p>Página de prueba</p>
+<p>Página de prueba</p>
 
 </body>
 </html>
