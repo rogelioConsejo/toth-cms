@@ -1,5 +1,8 @@
-#Options +FollowSymlinks
+#En caso de que sea necesario (por no tener acceso al archivo de 
+#configuración de apache).
 #
+#Options +FollowSymlinks
+
 RewriteEngine On
 RewriteCond %{REQUEST_URI} !^/public
 RewriteRule ^(.*)$ /public/$1 [NC,L]
