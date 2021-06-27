@@ -1,8 +1,25 @@
-# toth-cms
-Sistema de Administración de Contenido (CMS) para organizar información.
+# Toth-cms
+MVP: A drip feed subscription with paypal
 
-Inspirado en la idea del MEMEX de Vannevar Bush y el concepto de Wiki. La idea es almacenar información que se pueda recuperar de manera natural para la mente, de tal forma que sea fácil navegar grandes cantidades de información (sobre todo para información personal/privada pero con opción de revelar ciertas partes). Un EXtensor de MEMoria. Un cuaderno inteligente. Tiene un énfasis en la semántica de los links internos y de la organización de la información. Además, la idea es que pueda funcionar como repositorio de notas/información para equipos. Todo esto buscando mantener una interfaz ligera y ágil.
+## Features
+### Must Have
+- Users can subscribe by creating a username and password, and paying (no need for email?)
+- Users can login using their username and password (after paying at least once)
+- Admin can create content and publish it with a set delay
+- The content is available for the subscriber after the set delay (x days/weeks/months/years after the subscription)
+- Content is protected, only subscribers have access to it
+- Front-end and back-end decoupled to allow make it easy to have different front-ends (Mobile, Web, Desktop, etc.)
 
-## Otras especificaciones
-- Permitirá conectarse a otras aplicaciones por medio de APIs.
-- Será fácil de instalar y usar
+### Should Have
+- If a subscriber stops paying (cancel subscription), he can access the content he already paid for, but he receives no new content
+- If a subscriber resumes his subscription, he starts receiving content starting from where he left off
+- The price of the subscription remains the same unless you cancel your subscription (you can renew at the new price and hold that one)
+- Track your progress
+- Front-end is easy to style
+
+### Could Have
+- Multiple subscriptions with different content
+- Signing the content to tie it to a subscriber to track in case of sharing
+
+## First version technical specifications
+- Back-end in Golang
