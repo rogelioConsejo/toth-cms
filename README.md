@@ -3,7 +3,7 @@ MVP: A drip feed subscription with paypal
 
 ## Features
 ### Must Have
-- Users can subscribe by creating a username and password, and paying (no need for email?)
+- Users can subscribe by creating a username and password, and paying
 - Users can log in using their username and password (after paying at least once)
 - Admin can create content and publish it with a set delay
 - The content is available for the subscriber after the set delay (x days/weeks/months/years after the subscription)
@@ -23,3 +23,6 @@ MVP: A drip feed subscription with paypal
 ## First version technical specifications
 - Back-end in Golang
 - The first version of the front-end (React) will be included in another repository
+
+### User subscription happy path
+![diagram](./readme-assets/payment-happy-path.png)
